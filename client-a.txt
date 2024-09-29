@@ -1,4 +1,31 @@
 # Client Task A #
+#Write pseudocode for a number guessing game. The computer chooses a random number between 1 and 10, and the player has 3 chances to guess.#
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+Create empty text box that takes user inputs
+	Only allow box to take numberical inputs
+	Limit inputs to digits 1 through 10
+
+Create a variable for amount of user inputs
+	Limit it to three
+	
+Create a function that generates a random number on the backend betwen 1 and 10 everytime the page is refreshed
+	
+Create a function that links the random number output to the the user input
+	Test to see if the inputs match
+	If they match print "You're Right"
+	If they don't match subtract one from the user input variable
+		Stop subtracting at zero at end the loop
+
+Create text banner above the empty box with the guessing game description
+	Have the text display at all times 
+	Description reads "A random number will be chosen between 1 and 10. Try to guess the number. Type your guess in the box below." 
+
+Create a dynamic banner below the empty box that changes based on if the user guess correctly or not.
+	Start with "Choose a number between 1 and 10. You have [variable] chances"
+	Have number of inputs count down from however many inputs are left
+	If input gets subtracted, display "Wrong. Try Again. You have [variable] chances left"
+	When input reaches zero display "Sorry you're out of chances." 
+		End loop

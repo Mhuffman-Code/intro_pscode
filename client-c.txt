@@ -1,4 +1,21 @@
 # Client Task C #
+#You need to develop a program that counts the number of items that a hardware device scans to sort for boxing packages into cases.#
+#Each package scanned is two (2) products. Each case can only fit 50 product packages.#
+#Write a program that prints numbers from 2 to 50, counting by twos.#
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+Create variable for the products 
+	Set equal to 2
+
+Create a variable for the cases
+	Set equal to fifty
+
+Create a scanner variable 
+	Set to take user inputs 
+
+Create loop so that each time the user makes an input
+	Increase the products by two and print a reciept
+	Increase by two until products equal the products equal the case variable
+	Once the products equal 50 reset the loop

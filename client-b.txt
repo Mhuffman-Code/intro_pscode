@@ -1,4 +1,22 @@
 # Client Task B #
+#Develop a mapping (walking) application to find a specific set location in a large warehouse store for a customer.# 
+#The customer can move north, south, east, or west.#
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+Create an object that acts as a coordinate grid 
+	Set the dimensions of the grid proportional to a warehouse
+
+
+Create an object for the user
+	link the user to the directional inputs on the keyboard
+
+Create a function that lets the user move
+	One keyboard directional arrow equals one space on the grid 
+	The user object moves the direction of the keyboard input
+
+Create an object for the special location the user needs to find 
+
+Create a function keeps the grid moving when the user moves
+	If the user position equals the special location end the game 
